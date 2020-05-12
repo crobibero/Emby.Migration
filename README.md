@@ -13,6 +13,8 @@ SeriesName + S{00}E{00}
 
 ## Configuration:
 Copy `appsettings.Sample.json` to `appsettings.json`
+Add access properties for source and destination. Admin username is used to get all destination media.
+
 
 ## Running
-Run with `dotnet run Migration.dll`
+Run with `dotnet run Migration.dll`, or by executing `Migration.exe` / `Migration`
